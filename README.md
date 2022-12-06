@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Math-Magicians
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+"Math magicians" is a website for all fans of mathematics. 
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+- [Live link]().
 
-### `npm start`
+### Features implemented so far are:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Project Setup with React Installations
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built With
 
-### `npm test`
+- React (A free and open-source front-end JavaScript library for building user interfaces based on UI components)
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The basic requirements for building the executable are:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+- VSCode or any other equivalent code editor
+- Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking for debugging bad codes before deployment)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Getting Started
 
-### `npm run eject`
+#### Cloning the project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+git clone 
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+cd <Your-Build-Directory> 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting packages and dependencies
 
-## Learn More
+To get all package modules required to build the project run:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+every package module required to build the project is listed in the package.json file. this is used as a reference to get all dependencies.
 
-### Code Splitting
+## Building
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To build the project run:
 
-### Analyzing the Bundle Size
+```
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+after you run this sucessfully you'd locate the build from in the `build` folder located from the parent directory of the project.
 
-### Making a Progressive Web App
+## Running
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To run the program on a browser through a server run this command in your cli
 
-### Advanced Configuration
+```
+npm start
+```
+This should open the page in your localhost on port 3000. then you'd be able to view the built page generated using webpack.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Run tests
 
-### Deployment
+To run the test just use the following command!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+$ npm test
+```
 
-### `npm run build` fails to minify
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 **Zuhra Hashimi**
+
+- GitHub: [@ZuhRa-HashiMi](https://github.com/ZuhRa-HashiMi)
+- Twitter: [@ZuhraHashimi4](https://twitter.com/ZuhraHashimi4)
+- LinkedIn: [zuhra-hashimi](https://www.linkedin.com/in/zuhra-hashimi-601966214/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
