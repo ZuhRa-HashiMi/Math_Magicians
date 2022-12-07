@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat&family=Yusei+Magic&display=swap");
 
 body {
-  background-color: aquamarine;
+  background-color:ghostwhite;
   color: black;
 
 }
@@ -23,4 +23,46 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.skeleton {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 350px;
+  box-shadow: 0 0 10px 10px #fff;
+}
+
+
+.screen {
+  background-color: gray;
+  color: white;
+  padding: 4% 3%;
+}
+
+button {
+  background: none;
+  padding: 15% 1%;
+  border: solid 0.001mm white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+.orange {
+  background-color: orange;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+#zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
