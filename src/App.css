@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat&family=Yusei+Magic&display=swap");
 
 body {
-  background-color:ghostwhite;
+  background-color: ghostwhite;
   color: black;
-
 }
 
 h2,
@@ -33,7 +32,6 @@ p {
   box-shadow: 0 0 10px 10px #fff;
 }
 
-
 .screen {
   background-color: gray;
   color: white;
@@ -52,7 +50,6 @@ button {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-
 
 .orange {
   background-color: orange;
