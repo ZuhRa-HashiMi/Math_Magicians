@@ -8,7 +8,6 @@ export default function Calculator() {
   const handler = (e) => {
     setState((state) => calculate(state, e.target.textContent));
   };
-
   return (
     <section className="layout">
       <h2>Lets do some math!</h2>

@@ -1,6 +1,46 @@
+<a name="readme-top"></a>
+
+<div align="center">
+
+  <img src="https://github.com/Ofarouq310/Microverse_readme-template/blob/master/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
 # Math-Magicians
 
-"Math magicians" is a website for all fans of mathematics. 
+
+"Mathemagician" is a web app for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
+
+
+![screenshot](./Images/Screen-shoot-3.PNG)
+
+Our goal here is to Build a single page web application for mathematics weebs using the React library
+Click [here]() to get a live preview of the project
 
 ## Live Demo
 
@@ -28,7 +68,12 @@ The basic requirements for building the executable are:
 
 # Getting Started
 
+
 #### Cloning the project
+
+```
+git clone  https://github.com/ZuhRa-HashiMi/Math_Magicians <Your-Build-Directory>
+```
 
 ```
 git clone 
