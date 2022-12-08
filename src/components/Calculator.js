@@ -1,9 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 
-  const handler = (e) => {
-    setState((state) => calculate(state, e.target.textContent));
-  };
 
   return (
     <section className="layout">
