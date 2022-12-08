@@ -2,6 +2,9 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
+
+export default function Calculator() {
+  const [state, setState] = useState({ total: 0, next: null, operation: null });
   return (
     <section className="layout">
       <h2>Lets do some math!</h2>
