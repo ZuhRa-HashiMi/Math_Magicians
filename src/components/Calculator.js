@@ -1,9 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
-import calculate from '../logic/calculate';
-
-export default function Calculator() {
-  const [state, setState] = useState({ total: 0, next: null, operation: null });
 
   const handler = (e) => {
     setState((state) => calculate(state, e.target.textContent));
