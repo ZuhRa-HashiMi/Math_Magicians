@@ -63,7 +63,7 @@ To get a local copy up and running follow these simple example steps.
 
 - **[ A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)]**
 - **[ VSCode or any other equivalent code editor]**
-- ** [Node Package Manager]**
+- **[Node Package Manager]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
