@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import operate from './operate';
 
 function isNumber(item) {
@@ -16,7 +17,7 @@ function isNumber(item) {
 export default function calculate(obj, buttonName) {
   if (buttonName === 'AC') {
     return {
-      total: null,
+      total: 0,
       next: null,
       operation: null,
     };
@@ -28,13 +29,13 @@ export default function calculate(obj, buttonName) {
     }
     // If there is an operation, update next
     if (obj.operation) {
-      if (obj.next && obj.next !== '0') {
+      if (obj.next) {
         return { ...obj, next: obj.next + buttonName };
       }
       return { ...obj, next: buttonName };
     }
     // If there is no operation, update next and clear the value
-    if (obj.next && obj.next !== '0') {
+    if (obj.next) {
       return {
         next: obj.next + buttonName,
         total: null,
@@ -54,15 +55,15 @@ export default function calculate(obj, buttonName) {
       return { ...obj, next: `${obj.next}.` };
     }
     if (obj.operation) {
-      return { ...obj, next: '0.' };
+      return { next: '0.' };
     }
     if (obj.total) {
       if (obj.total.includes('.')) {
         return {};
       }
-      return { ...obj, next: `${obj.total}.` };
+      return { total: `${obj.total}.` };
     }
-    return { ...obj, next: '0.' };
+    return { total: '0.' };
   }
 
   if (buttonName === '=') {
@@ -104,10 +105,6 @@ export default function calculate(obj, buttonName) {
   if (obj.operation) {
     if (obj.total && !obj.next) {
       return { ...obj, operation: buttonName };
-    }
-
-    if (!obj.total) {
-      return { total: 0, operation: buttonName };
     }
 
     return {

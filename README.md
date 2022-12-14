@@ -14,14 +14,12 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -31,58 +29,55 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# Math-Magicians
+# 📖 [Math-Magicians] <a name="about-project"></a>
 
 
-"Mathemagician" is a web app for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
+> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) consisting of 3 pages: Home, Calculator, and Quote that allows users to:
+- Make simple calculations
+- Read a math-related quote
+- see instructions to use in homepage
 
-![screenshot](./Images/Screen-shoot-3.PNG)
-
-Our goal here is to Build a single page web application for mathematics weebs using the React library
-Click [here]() to get a live preview of the project
-
-## Live Demo
-
-- [Live link]().
-
-### Features implemented so far are:
-
-- Project Setup with React Installations
-
-## Built With
-
+## 🛠 Built With <a name="built-with"></a>
 - React (A free and open-source front-end JavaScript library for building user interfaces based on UI components)
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 - ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Tech Stack <a name="tech-stack"></a>
 
-The basic requirements for building the executable are:
+>(A free and open-source front-end JavaScript library for building user interfaces based on UI components
 
-- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
-- VSCode or any other equivalent code editor
-- Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking for debugging bad codes before deployment)
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-# Getting Started
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
 
 
-#### Cloning the project
+- **[ A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)]**
+- **[ VSCode or any other equivalent code editor]**
+- **[Node Package Manager]**
 
-```
-git clone  https://github.com/ZuhRa-HashiMi/Math_Magicians <Your-Build-Directory>
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-```
-git clone 
-```
+<!-- LIVE DEMO -->
 
-```
-cd <Your-Build-Directory> 
+## 🚀 Live Demo <a name="live-demo"></a>
 
-```
+- [Live Demo Link](https://zuhra-hashimi.github.io/Math_Magicians/dist)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 ## Getting packages and dependencies
 
@@ -101,6 +96,10 @@ To build the project run:
 ```
 npm run build
 ```
+
+
+### Prerequisites
+
 
 after you run this sucessfully you'd locate the build from in the `build` folder located from the parent directory of the project.
 
@@ -121,6 +120,29 @@ To run the test just use the following command!
 $ npm test
 ```
 
+
+### Setup
+
+
+```
+git clone  https://github.com/ZuhRa-HashiMi/Math_Magicians <Your-Build-Directory>
+```
+
+```
+git clone 
+```
+
+```
+cd <Your-Build-Directory> 
+
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
 ## Author
 
 👤 **Zuhra Hashimi**
@@ -129,14 +151,46 @@ $ npm test
 - Twitter: [@ZuhraHashimi4](https://twitter.com/ZuhraHashimi4)
 - LinkedIn: [zuhra-hashimi](https://www.linkedin.com/in/zuhra-hashimi-601966214/)
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Implemented with React]**
+- [ ] **[Faster than JS]**
+- [ ] **[calculate every methmatics operation]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
 
 Give a ⭐️ if you like this project!
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 ## Acknowledgments
 
 - Microverse
 
-## 📝 License
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
 
 This project is [MIT](./MIT.md) licensed.

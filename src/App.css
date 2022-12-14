@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat&family=Yusei+Magic&display=swap");
 
 body {
-  background-color: ghostwhite;
-  color: black;
+  background-image: url("./images/blue-milky-way-galaxy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
 h2,
@@ -29,7 +31,7 @@ p {
   flex-direction: column;
   width: 500px;
   height: 350px;
-  box-shadow: 0 0 10px 10px #fff;
+  box-shadow: 0 0 60px 30px #fff, 0 0 100px 60px #f0f, 0 0 100px 90px #0ff;
 }
 
 .screen {
@@ -62,4 +64,38 @@ button {
 #zero {
   grid-column-start: 1;
   grid-column-end: 3;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 3%;
+  border-bottom: solid 0.5px gray;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: larger;
+}
+
+.navLink {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  list-style-type: none;
+}
+
+.navItem a,
+span {
+  padding-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.home {
+  padding: 0 3%;
+}
+
+.quote {
+  margin: 15% 20%;
 }
