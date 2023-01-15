@@ -78,7 +78,6 @@ To get a local copy up and running follow these simple example steps.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](![image](https://user-images.githubusercontent.com/74463413/212542586-d661a2b4-d83e-4070-9c25-435bf33c5df8.png)
-)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
