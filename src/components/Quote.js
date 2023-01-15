@@ -1,3 +1,4 @@
+/* eslint-disable eol-last */
 /* eslint-disable linebreak-style */
 import React from 'react';
 
@@ -12,3 +13,4 @@ export default function Quote() {
     </section>
   );
 }
+// only for push
